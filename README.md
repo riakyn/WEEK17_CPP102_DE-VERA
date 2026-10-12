@@ -4,7 +4,7 @@
 **Project:** Week 17 Main Project\
 **Name:** Ma. Eleonor A. De Vera\
 **Section:** 1CPE-A\
-**Date:** 12/10/2026\
+**Date:** 12/10/2026
 
 ## 1. Project Overview
 
@@ -85,11 +85,11 @@ These rules are for classroom simulation only.
 
 ## 9. How to Run
 
-Open the terminal in the `Week17` folder and enter:
+Open the terminal in the Week17 folder and enter:
 
-```
+
 python device_monitor.py
-```
+
 
 Choose an option from 1 to 5 and follow the instructions.
 
@@ -117,7 +117,7 @@ Replace this example with the actual output from your program before submission.
 
 ## 11. Testing
 
-The program must pass the 10 required tests listed in `test_cases.md`.
+The program must pass the 10 required tests listed in test_cases.md.
 
 These tests check viewing readings, adding readings, invalid inputs, temperature boundaries, the summary, invalid menu choices, and exiting.
 
@@ -127,15 +127,3 @@ Record the actual result of each test after running the program.
 
 This project helped me practice Python functions, lists, loops, conditions, and input validation. I also learned how to calculate temperature summaries and test a program to check whether it works correctly.
 
-## Project Files
-
-```
-Week17/
-├── device_monitor.py
-├── README.md
-└── test_cases.md
-```
-
-- `device_monitor.py` – The Python program.
-- `README.md` – Project information and instructions.
-- `test_cases.md` – Test cases and actual results.
