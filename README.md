@@ -47,20 +47,20 @@ The menu repeats until the user chooses Exit.
 
 | Function Name | Parameters | Returns | Job |
 | --- | --- | --- | --- |
-| `main()` | None | Nothing | Runs the menu |
-| `get_initial_readings()` | None | List | Creates the initial readings |
-| `display_menu()` | None | Nothing | Displays the menu |
-| `display_readings(readings)` | Readings | Nothing | Shows all readings |
-| `add_reading(readings, lowest, highest)` | Readings and limits | Nothing | Adds a valid reading |
-| `classify_reading(reading, warning_limit, critical_limit)` | Reading and limits | String | Classifies a reading |
-| `display_classifications(readings, warning_limit, critical_limit)` | Readings and limits | Nothing | Shows classifications |
-| `compute_total(readings)` | Readings | Number | Calculates the total |
-| `compute_average(readings)` | Readings | Number | Calculates the average |
-| `find_minimum(readings)` | Readings | Number | Finds the lowest reading |
-| `find_maximum(readings)` | Readings | Number | Finds the highest reading |
-| `count_category(readings, warning_limit, critical_limit, category)` | Readings, limits, and category | Number | Counts each category |
-| `determine_overall_status(warning_count, critical_count)` | Category counts | String | Determines the overall status |
-| `display_summary(readings)` | Readings | Nothing | Displays the summary |
+| main() | None | Nothing | Runs the menu |
+| get_initial_readings() | None | List | Creates the initial readings |
+| display_menu() | None | Nothing | Displays the menu |
+| display_readings(readings) | Readings | Nothing | Shows all readings |
+| add_reading(readings, lowest, highest) | Readings and limits | Nothing | Adds a valid reading |
+| classify_reading(reading, warning_limit, critical_limit) | Reading and limits | String | Classifies a reading |
+| display_classifications(readings, warning_limit, critical_limit) | Readings and limits | Nothing | Shows classifications |
+| compute_total(readings) | Readings | Number | Calculates the total |
+| compute_average(readings) | Readings | Number | Calculates the average |
+| find_minimum(readings) | Readings | Number | Finds the lowest reading |
+| find_maximum(readings) | Readings | Number | Finds the highest reading |
+| count_category(readings, warning_limit, critical_limit, category) | Readings, limits, and category | Number | Counts each category |
+| determine_overall_status(warning_count, critical_count) | Category counts | String | Determines the overall status |
+| display_summary(readings) | Readings | Nothing | Displays the summary |
 
 ## 7. Temperature Rules
 
