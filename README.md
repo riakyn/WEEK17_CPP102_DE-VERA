@@ -1,7 +1,3 @@
-Here is a simpler `README.md` using easy words and shorter explanations. You can copy this into your `Week17/README.md` file.
-
-Writing
-
 # Laboratory Exercise 17: Device Monitoring System
 
 **Course:** CPP102\
