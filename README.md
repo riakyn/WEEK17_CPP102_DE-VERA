@@ -72,8 +72,6 @@ The menu repeats until the user chooses Exit.
 
 Readings must be whole numbers from 0 to 100. Empty, invalid, negative, and over-100 inputs are rejected.
 
-These rules are for classroom simulation only.
-
 ## 8. Program Flow
 
 1. Start the program.
@@ -86,42 +84,98 @@ These rules are for classroom simulation only.
 ## 9. How to Run
 
 Open the terminal in the Week17 folder and enter:
-
-
 python device_monitor.py
-
-
 Choose an option from 1 to 5 and follow the instructions.
 
 ## 10. Sample Output
 
 ```
+SIMULATED DEVICE MONITORING SYSTEM
+----------------------------------
+[1] View Readings
+[2] Add Reading
+[3] Classify Readings
+[4] Generate Summary
+[5] Exit
+
+Enter choice: 1
+
+CURRENT READINGS
+----------------
+Reading 1 : 28 °C
+Reading 2 : 31 °C
+Reading 3 : 35 °C
+Reading 4 : 37 °C
+Reading 5 : 29 °C
+
+SIMULATED DEVICE MONITORING SYSTEM
+----------------------------------
+[1] View Readings
+[2] Add Reading
+[3] Classify Readings
+[4] Generate Summary
+[5] Exit
+
+Enter choice: 2
+Enter new reading: 33
+
+Reading added successfully.
+
+SIMULATED DEVICE MONITORING SYSTEM
+----------------------------------
+[1] View Readings
+[2] Add Reading
+[3] Classify Readings
+[4] Generate Summary
+[5] Exit
+
+Enter choice: 2
+Enter new reading: abc
+
+Invalid input. Enter a whole number only.
+
+SIMULATED DEVICE MONITORING SYSTEM
+----------------------------------
+[1] View Readings
+[2] Add Reading
+[3] Classify Readings
+[4] Generate Summary
+[5] Exit
+
+Enter choice: 4
+
 MONITORING SUMMARY
 ------------------
-Number of readings  : 5
-Total of readings   : 160
-Average temperature : 32.00 °C
+Number of readings  : 6
+Total of readings   : 193
+Average temperature : 32.17 °C
 Minimum temperature : 28 °C
 Maximum temperature : 37 °C
 
-NORMAL   : 2 (40.00%)
-WARNING  : 2 (40.00%)
-CRITICAL : 1 (20.00%)
+NORMAL   : 2 (33.33%)
+WARNING  : 3 (50.00%)
+CRITICAL : 1 (16.67%)
 
 Overall Status: ATTENTION REQUIRED
+
+SIMULATED DEVICE MONITORING SYSTEM
+----------------------------------
+[1] View Readings
+[2] Add Reading
+[3] Classify Readings
+[4] Generate Summary
+[5] Exit
+
+Enter choice: 5
+
+Thank you for using the Device Monitoring System.
 ```
 
-This summary uses the initial readings: 28, 31, 35, 37, and 29.
-
-Replace this example with the actual output from your program before submission.
+The program starts by showing the initial readings. I added a new reading of 33 °C, then tried entering abc, which the program correctly rejected. After adding 33 °C, the total became 193, and the average was 32.17 °C. The lowest reading was 28 °C, and the highest was 37 °C. The program also showed 2 NORMAL readings, 3 WARNING readings, and 1 CRITICAL reading. The overall status was ATTENTION REQUIRED because one of the readings was above 35 °C.
 
 ## 11. Testing
 
-The program must pass the 10 required tests listed in test_cases.md.
-
-These tests check viewing readings, adding readings, invalid inputs, temperature boundaries, the summary, invalid menu choices, and exiting.
-
-Record the actual result of each test after running the program.
+The program was tested using the 10 test cases in test_cases.md. The tests covered viewing and adding readings, checking invalid inputs, classifying temperatures, generating the summary, entering an invalid menu choice, and exiting the program. The actual results were recorded after running each test.
 
 ## 12. Conclusion
 
